@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Siva - Experienced software developer showcasing projects, skills, and professional experience in web development and software engineering.">
+    <title>Siva | Professional Portfolio</title>
+    <style>
+        /* Basic responsive styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        section {
+            margin: 2rem 0;
+            padding: 1rem;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            section {
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Siva's Portfolio</h1>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Data Engineering professional with over 5 years of experience, specializing in building scalable data lakes, ETL pipelines, and real-time data processing solutions using GCP and AWS. Passionate about implementing efficient data architectures and automation solutions.</p>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Technical Skills</h2>
+            <ul>
+                <li>Cloud Platforms: Google Cloud Platform (GCP), Amazon Web Services (AWS)</li>
+                <li>Data Processing: Cloud Dataflow, Datapro with Spark, Apache Airflow</li>
+                <li>Streaming & Messaging: Druid, Kafka, Kinesis Streaming</li>
+                <li>Big Data: Cloud Storage, BigQuery, BigTable, S3</li>
+                <li>Languages: Python, SQL</li>
+                <li>Analytics: Tableau, AWS Athena</li>
+                <li>Security: GCP IAM policies, data encryption, data masking</li>
+            </ul>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Professional Experience</h2>
+            <article>
+                <h3>Senior Data Engineer</h3>
+                <ul>
+                    <li>Designed and developed centralized data lakes on GCP, leveraging Cloud Storage, BigQuery, BigTable for efficient data processing</li>
+                    <li>Built scalable ETL workflows using Cloud Dataflow and Spark for data ingestion and transformation</li>
+                    <li>Implemented real-time data ingestion architectures using Druid and Kafka on GCP</li>
+                    <li>Collaborated with ML engineers to integrate data pipelines with AI/ML models</li>
+                    <li>Orchestrated multi-source data pipelines using Cloud Composer and Cloud Dataproc</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Data Infrastructure Projects</h3>
+                <ul>
+                    <li>Developed scalable data transformation code in Python and Scala</li>
+                    <li>Designed AWS-based data solutions, leveraging Apache Airflow for workflow automation</li>
+                    <li>Optimized Redshift clusters for enhanced data analytics</li>
+                    <li>Implemented AWS Kinesis and Apache Kafka streaming solutions</li>
+                    <li>Created real-time dashboards using Tableau and AWS Lambda</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Key Projects</h2>
+            <article>
+                <h3>File Format Converter</h3>
+                <p>Developed a Python-based ETL tool for converting data between different file formats (CSV, JSON) with focus on retail database conversion. Implemented efficient data processing techniques and error handling.</p>
+                <ul>
+                    <li>Technologies: Python, Pandas, JSON, CSV</li>
+                    <li>Features: Batch processing, data validation, format preservation</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Files to Database Migration Project</h3>
+                <p>Created an automated system for migrating file-based data to structured databases, ensuring data integrity and optimal performance.</p>
+                <ul>
+                    <li>Technologies: Python, SQL, Database APIs</li>
+                    <li>Features: Automated migration, data validation, error logging</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>GCP Data Engineering Projects</h3>
+                <p>Implemented various data engineering solutions using Google Cloud Platform services.</p>
+                <ul>
+                    <li>Cloud Storage Operations: Developed scripts for GCS file management and operations</li>
+                    <li>Dataflow Implementation: Created data processing pipelines</li>
+                    <li>Technologies: GCP, Python, Cloud Storage, Dataflow</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>AWS S3 Data Management</h3>
+                <p>Built data management solutions for AWS S3, including file operations and data processing workflows.</p>
+                <ul>
+                    <li>Technologies: AWS S3, Python, Boto3</li>
+                    <li>Features: Automated file handling, data transformation, storage optimization</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form role="form" aria-label="Contact form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Siva. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
