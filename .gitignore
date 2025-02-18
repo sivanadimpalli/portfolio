@@ -1,6 +1,6 @@
-echo ".DS_Store
+.DS_Store
 */.DS_Store
 **/.DS_Store
 **/venv/
 **/__pycache__/
-*.pyc" > .gitignore
+*.pyc
